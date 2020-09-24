@@ -7,6 +7,7 @@
  1.Install FFMPEG
  
  $sudo apt update
+ 
  $sudo apt install ffmpeg
 
  2, Make changes to the FFMPEG config file
@@ -33,4 +34,26 @@ VideoIntraOnly
 NoAudio
 Strict -1
 </Stream>
+
+# Starting the proccess
+
+1. Start up a Deepstream application that produces a RTSP stream.
+
+2.Open up a second terminal and run.
+
+ $sudo ffserver
+ 
+3. Open up another terminal and run this:
+
+ $ffmpeg -rtsp_transport tcp -i 'rtsp://<youre IP or Localhost>:8554/ds-test' http://<youre IP or   Localhost:8080/camera1.ffm
+                                                                                            
+ 4.Open up VLC or youre favorite player. Choose the play streaming option.
+ 
+   http://172.16.2.55:8080/camera1.mjpeg
+   
+  HTTP Stream should start playing
+
+                                                                                            
+                                                                                            
+                                                                                            
 
