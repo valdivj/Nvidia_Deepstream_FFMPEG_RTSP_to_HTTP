@@ -18,21 +18,35 @@
   
 
 <Feed camera1.ffm>
+
 ACL allow localhost
+
 ACL allow "your ip address"
+
 #uncomment if you want an IP range to be able to access the stream
+
 #ACL allow 192.168.0.0 192.168.255.255
+
 </Feed>
 
 <Stream camera1.mjpeg>
+
 Feed camera1.ffm
+
 Format mpjpeg
+
 VideoFrameRate 30
+
 VideoSize 640x360
+
 VideoBitRate 4048
+
 VideoIntraOnly
+
 NoAudio
+
 Strict -1
+
 </Stream>
 
 # Starting the proccess
