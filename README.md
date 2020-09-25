@@ -65,7 +65,7 @@ Strict -1
  
  Choose the play streaming option.
  
-  http://<youre IP or Localhost>:8080/camera1.mjpeg
+  http://youre_IP_or_Localhost:8080/camera1.mjpeg
  
    
   HTTP Stream should start playing
