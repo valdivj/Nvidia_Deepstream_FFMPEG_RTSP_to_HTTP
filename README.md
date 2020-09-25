@@ -61,10 +61,12 @@ Strict -1
 
  $ffmpeg -rtsp_transport tcp -i 'rtsp://<youre IP or Localhost>:8554/ds-test' http://<youre IP or   Localhost:8080/camera1.ffm
                                                                                             
- 4.Open up VLC or youre favorite player. Choose the play streaming option.
+ 4.Open up VLC or youre favorite player.
  
+ Choose the play streaming option.
  
- http://<youre IP or Localhost>:8080/camera1.mjpeg
+  http://<youre IP or Localhost>:8080/camera1.mjpeg
+ 
    
   HTTP Stream should start playing
 
