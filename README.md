@@ -59,7 +59,7 @@ Strict -1
  
 3. Open up another terminal and run this:
 
- $ffmpeg -rtsp_transport tcp -i 'rtsp://youre IP or Localhost:8554/ds-test' http://youre IP or   Localhost:8080/camera1.ffm
+ $ffmpeg -rtsp_transport tcp -i 'rtsp://youre_IP_or_Localhost:8554/ds-test' http://youre_IP_or  _Localhost:8080/camera1.ffm
                                                                                             
  4.Open up VLC or youre favorite player.
  
