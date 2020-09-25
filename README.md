@@ -63,7 +63,7 @@ Strict -1
                                                                                             
  4.Open up VLC or youre favorite player. Choose the play streaming option.
  
-   http://172.16.2.55:8080/camera1.mjpeg
+   http://<youre IP or Localhost>:8080/camera1.mjpeg
    
   HTTP Stream should start playing
 
